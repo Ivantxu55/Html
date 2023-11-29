@@ -1,0 +1,60 @@
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.titulo{
+    text-align: center;
+}
+@media (max-width: 1000px){
+    body{background-image: url(img/bg-mobile/bg2.jpg);
+        background-size: cover;
+    }
+}
+@media (min-width: 1000px){
+    body{    background-image: url("img/Pilotos_bg.jpg");
+        background-size: cover;
+    }
+}
+html{
+
+    background-size: cover;
+    color: white;
+    padding: 0% 8%;
+}
+.pilotos img, h2, p{
+    display: inline;
+}
+article{
+    background-color: rgba(100, 100, 100, 0.5);
+    border: 1px solid rgb(100, 100, 100);
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 384px;
+
+}
+p, .pilotos{
+    display: block;
+}
+.pilotos{
+    align-self: center;
+    margin: 0 auto;
+}
+.pais{
+    display: block;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}

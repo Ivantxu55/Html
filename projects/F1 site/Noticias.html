@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Pilotos F1 GRID</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="HeaderFooter.css">
+        <link rel="stylesheet" href="Noticias.css">
+        <link rel="icon" type="image/x-icon" href="img/f1.png">
+    </head>
+    <body>
+        <header>
+            <img src="img/F1_(white).svg.png" class="logo" alt="Logo">
+            <nav>
+                <ul class="listaweb">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href ="Pilotos.html">Pilotos</a></li>
+                    <li><a href ="Noticias.html">Noticias</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class= "title">
+            <h1>Noticias</h1>
+            <h2>¡Consigue aquí tus noticias relacionadas con el mundo de la Fórmula 1!</h2>
+        </div>
+        <ul class = "noticia">
+            <li>
+                <article>
+                <h3>Max Verstappen consigue otra victoria en el GP de Qatar</h3>
+                <img src="img/Noticias/max-verstappen-red-bull-racing-qatar.jpg" alt="Max Verstappen Qatar" height="200" width="300">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>El equipo de McLaren consigue el récord mundial de pit-stop con una parada de 1.80 segundos.</h3>
+                    <img src="img/Noticias/20231010_102033.jpg" alt="Parada McLaren" height="300" width="300">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>La carrera de Qatar se recordará como una de las más duras en la historia reciente.</h3>
+                    <img src="img/Noticias/16968395785152.jpg" alt="Pesadilla Qatar" height="250" width="300">
+                </article>
+            </li>
+        </ul>
+        <form action="form.php" method="post" class="newsletter">
+            <fieldset>
+            <legend><img src="img/F1.svg.png" alt="logo" height="50" width="200"></legend>
+            <h2>¡Únete a nuestra newsletter y condigue las noticias antes que nadie!</h2>
+
+            <label>Género:</label>
+            <select name="gen" id="genero">
+                <option value="m">Masculino</option>
+                <option value="f">Femenino</option>
+                <option value="o">Otro</option>
+                <option value="n">Prefiero no decirlo</option>
+            </select><br><br>
+            E-mail: <input type="text"><br>
+            Contraseña: <input type="password"><br>
+            Repetir contraseña: <input type="password"><br>
+            <input type="checkbox" name="recibir" value="Moto">Acepto recibir noticias y promociones en mi e-mail.<br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        </form>
+
+
+       <footer>
+            <p class="copy">Copyright © 2023 HTML Iván Casado</p>
+        </footer>
+    </body>
+</html>

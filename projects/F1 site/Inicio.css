@@ -1,0 +1,66 @@
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 1000px){
+    body{background-image: url(img/bg-mobile/bg1.jpg);
+        background-size: cover;
+    }
+}
+@media (min-width: 1000px){
+    body{background-image: url("img/Web-bg.jpg");
+        background-size: cover;
+    }
+}
+html{
+    background-size: cover;
+    color: white;
+    padding: 0% 8%;
+}
+h1, h2, h3{
+    font-size: larger;
+}
+p{
+    text-align: justify;
+    margin: 2% 2%;
+}
+
+
+#t_pilotos{
+    width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    background-color: black;
+    margin: 0 auto;
+
+}
+
+#t_pilotos th {
+    border: 1px solid;
+    background-color: #e10600;
+}
+#t_pilotos td {
+    border: 1px solid;
+}
+td{
+    text-align: center;
+}
+#t_pilotos tr:nth-child(even) {
+    background-color: rgb(50, 50, 50);
+}
+
+#t_equipos{
+    width: 75%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(100, 100, 100, 0.4);
+}
+#t_equipos th{
+    border-bottom: 1px solid gray;
+}
+#t_equipos td{
+    border-bottom: 1px solid gray;
+}

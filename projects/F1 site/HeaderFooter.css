@@ -1,0 +1,54 @@
+header{
+    background-color: #e10600;
+    padding: 10px 10px;
+}
+header a:link{
+    color: white;
+    text-decoration: none;
+}
+header a:visited{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+header a:active{
+    color: white;
+    text-decoration: none;
+}
+.listaweb{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+.logo{
+    display: inline-block;
+
+}
+nav{
+    display: inline-block;
+    position: relative;
+    
+}
+footer{
+    background-color: black;
+    
+}
+.copy{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
